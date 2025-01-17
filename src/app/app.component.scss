@@ -1,0 +1,40 @@
+.container {
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.tile-container {
+  display: flex;
+  //   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-top: 16px;
+}
+
+.tile {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.tile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+}
+
+.tile-header span {
+  font-weight: bold;
+}
+
+.tile-content {
+  padding: 16px;
+}
